@@ -1,2 +1,2 @@
-# memory-game
+# memory game
 Two-player memory game

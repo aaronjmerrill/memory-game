@@ -1,0 +1,13 @@
+package layouts
+
+import "memorygame/templates/components"
+
+templ GameLayout() {
+	<div>
+		<link href="/static/css/tailwind.css" rel="stylesheet"/>
+		// messages
+		@components.GameGrid()
+		// score
+		<script src="/static/scripts/htmx.min.js"></script>
+	</div>
+}

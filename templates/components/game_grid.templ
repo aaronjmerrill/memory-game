@@ -1,0 +1,19 @@
+package components;
+
+import "fmt"
+
+templ GameGrid() {
+	<div class="game-grid bg-black grid grid-rows-5 gap-1">
+		for i := 1; i <= 5; i++ {
+			<div class="grid-row">
+				for j := 1; j <= 5; j++ {
+					if (i == 3 && j == 3) {
+						<div class="btn btn-disabled bg-transparent w-20"></div>
+					} else {
+						<div class="btn rounded-md bg-blue-600 w-20" hx-post={ fmt.Sprintf("/flip?x=%d&y=%d", j, i) } hx-trigger="click" hx-swap="innerHTML"></div>
+					}
+				}
+			</div>
+		}
+	</div>
+}

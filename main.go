@@ -2,9 +2,10 @@ package main
 
 import (
 	"log"
-	"memorygame/templates"
-	"memorygame/templates/layouts"
 	"net/http"
+
+	"github.com/powderbluecrayon/memory-game/templates"
+	"github.com/powderbluecrayon/memory-game/templates/layouts"
 
 	"github.com/a-h/templ"
 )

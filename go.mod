@@ -1,4 +1,4 @@
-module memorygame
+module github.com/powderbluecrayon/memory-game
 
 go 1.22.5
 

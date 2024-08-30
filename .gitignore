@@ -25,4 +25,3 @@ go.work.sum
 bin/
 node_modules/
 **/.DS_Store
-**/*_templ.go

@@ -4,8 +4,8 @@ tmp_dir = "tmp"
 
 [build]
   args_bin = []
-  bin = "./tmp/memorygame"
-  cmd = "npx tailwindcss -o static/css/tailwind.css --minify && templ generate && go build -o ./tmp/memorygame ."
+  bin = "./tmp/memory-game"
+  cmd = "npx tailwindcss -o static/css/tailwind.css --minify && templ generate && go build -o ./tmp/memory-game ."
   delay = 1000
   exclude_dir = ["assets", "tmp", "vendor", "testdata", "static", "node_modules"]
   exclude_file = []
